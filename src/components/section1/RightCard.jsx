@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
 
 const RightCard = (props) => {
   return (
@@ -11,7 +11,7 @@ const RightCard = (props) => {
           <p className='text-white text-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repellat est recusandae facere unde, sunt dignissimos?</p>
           <div className='mt-10 flex justify-between'>
             <button className='bg-blue-600 text-white rounded-3xl px-8 py-2 text-lg font-medium h-12'>{props.tag}</button>
-            <button className='bg-blue-600 text-white rounded-3xl py-4 px-4 font-medium text-lg h-12'><FaArrowRight /></button>
+            {/* <button className='bg-blue-600 text-white rounded-3xl py-4 px-4 font-medium text-lg h-12'><FaArrowRight /></button> */}
           </div>
         </div>
       </div>
